@@ -1,9 +1,13 @@
 import React from 'react';
+import Footer from '../Shared/Footer/Footer';
+import Navbar from '../Shared/Navbar/Navbar';
 
 const Layout = () => {
     return (
         <div>
-            <h1>Hello</h1>
+        <Navbar></Navbar>
+        <Layout></Layout>
+        <Footer></Footer>
         </div>
     );
 };
