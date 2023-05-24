@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import CountDown from '../../Page/CountDown/CountDown';
+import {  BsFire, BsGift} from "react-icons/bs";
+import { GiHeartBottle } from "react-icons/gi";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 const Navbar = () => {
@@ -9,7 +10,7 @@ const Navbar = () => {
         setIsOpen(!isOpen);
     };
   useEffect(() => {
-    AOS.init();
+    AOS.init()
   }, []);
 
 
@@ -18,13 +19,11 @@ const Navbar = () => {
     <div className="px-8 py-2 dark:bg-gray-900 dark:text-gray-100">
 	<div className="flex items-center mx-auto container justify-center md:justify-between py-2">
 		<div>
-			<span>Get up to 50% off your first order + free shipping,&nbsp;</span>
-			<a href="#" rel="noopener noreferrer" className="underline">sign up</a>today!
+			<span className='flex items-center' >  <BsFire className='text-red-600 w-6 h-6'  ></BsFire>  Get up to 50% off your first order + free shipping,&nbsp; <BsFire className='text-red-600 w-6 h-6' ></BsFire>  </span>
+			
 		</div>
 		<a href="#" rel="noopener noreferrer" className="items-center gap-2 hidden md:flex">
-			<svg role="img" viewBox="0 0 22 22" className="fill-current h-4 w-4">
-				<path clipRule="evenodd" d="M6.5 1.75a1.75 1.75 0 100 3.5h3.51a8.785 8.785 0 00-.605-1.389C8.762 2.691 7.833 1.75 6.5 1.75zm5.49 3.5h3.51a1.75 1.75 0 000-3.5c-1.333 0-2.262.941-2.905 2.111a8.778 8.778 0 00-.605 1.389zM1.75 6.75v3.5h18.5v-3.5H1.75zm18 5H21a.75.75 0 00.75-.75V6a.75.75 0 00-.75-.75h-2.761a3.25 3.25 0 00-2.739-5c-2.167 0-3.488 1.559-4.22 2.889a9.32 9.32 0 00-.28.553 9.32 9.32 0 00-.28-.553C9.988 1.809 8.667.25 6.5.25a3.25 3.25 0 00-2.739 5H1A.75.75 0 00.25 6v5c0 .414.336.75.75.75h1.25V21c0 .414.336.75.75.75h16a.75.75 0 00.75-.75v-9.25zm-1.5 0H3.75v8.5h14.5v-8.5z" fillRule="evenodd"></path>
-			</svg>
+			<BsGift className='text-rose-600 w-6 h-6' ></BsGift>
 			<span className="hover:underline focus-visible:underline">Gift Cards</span>
 		</a>
 	</div>
@@ -114,7 +113,8 @@ const Navbar = () => {
       aria-label="Site Nav"
       class="hidden items-center justify-center gap-8 text-sm font-medium lg:flex lg:w-0 lg:flex-1"
     >
-     <h1>Roza Perfume Shop</h1>
+      
+     <h1 className='text-3xl flex items-center font-mono uppercase font-semibold text-black'>Roza Perfume<GiHeartBottle className='text-pink-400 w-12 h-12'></GiHeartBottle> Shop</h1>
     </div>
 
     <div class="hidden items-center gap-4 lg:flex">
@@ -277,3 +277,56 @@ export default Navbar;
     </button>
   </div>
 </div> */}
+
+<!-- HTML structure -->
+<header aria-label="Site Header" class="border-b border-gray-100">
+  <div class="mx-auto flex h-16 max-w-screen-2xl items-center justify-between sm:px-6 lg:px-8">
+    <div class="flex items-center gap-4">
+      <button type="button" class="p-2 lg:hidden">
+        <!-- Mobile menu button icon -->
+      </button>
+
+      <a href="#" class="flex">
+        <span class="sr-only">Logo</span>
+        <span class="inline-block h-10 w-32 rounded-lg bg-gray-200"></span>
+      </a>
+    </div>
+
+    <div class="flex flex-1 items-center justify-end gap-8">
+      <nav aria-label="Site Nav" class="hidden lg:flex lg:gap-4 lg:text-xs lg:font-bold lg:uppercase lg:tracking-wide lg:text-gray-500">
+        <a href="/about" class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700">
+          About
+        </a>
+
+        <a href="/news" class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700">
+          News
+        </a>
+
+        <a href="/products" class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700">
+          Products
+        </a>
+
+        <a href="/contact" class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700">
+          Contact
+        </a>
+
+        <!-- Additional Menu Items -->
+        <a href="/menu1" class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700">
+          Menu 1
+        </a>
+
+        <a href="/menu2" class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700">
+          Menu 2
+        </a>
+        
+        <!-- Add more menu items as needed -->
+        
+      </nav>
+
+      <div class="flex items-center">
+        <!-- Cart, Account, and Search icons -->
+      </div>
+    </div>
+  </div>
+</header>
+
