@@ -44,6 +44,8 @@ const data = [
     category: "earbuds",
   },
 ];
+
+
 const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(1);
 
@@ -58,18 +60,23 @@ const Slider = () => {
     );
   };
 
+
+
   return (
-    <div className="frame relative overflow-x-hidden">
+    <div className="w-[70%] h-[387px] pt-10 ml-40 mb-10">
+
+    
+    <div className="relative overflow-x-hidden w-full h-full">
       <div
-        className="slider relative "
-        style={{ transform: `translateX(-${100 * currentSlide}vw)` }}
+        className="h-full w-[500%] flex transition duration-1000 ease-linear relative "
+        style={{ transform: `translateX(-${70 * currentSlide}vw)` }}
       >
         {data.map((image) => (
           <Slide image={image} key={image.id} />
         ))}
       </div>
-      <div className="btns absolute z-[1]  text-gray-50 bottom-[50%] w-screen ">
-        <div className="flex  justify-between pr-5 pl-1 gap-10 ">
+      <div className="absolute z-[1]  text-gray-50 bottom-[40%] w-[100%] ">
+        <div className="flex flex-row justify-between">
           <button
             onClick={prevSlide}
             className="backdrop-blur-xl bg-black bg-opacity-50 text-sky-50 px-4 py-7"
@@ -89,6 +96,7 @@ const Slider = () => {
           </button>
         </div>
       </div>
+    </div>
     </div>
   );
 };
