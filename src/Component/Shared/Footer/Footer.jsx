@@ -44,7 +44,7 @@ const Footer = () => {
     return (
         <>
             {/* First Footer */}
-            <div className='flex flex-row justify-between items-center px-40 w-full text-white h-[45px] bg-[#4D2952]'> 
+            <div className='my-24 flex flex-row justify-between items-center px-40 w-full text-white h-[45px] bg-[#4D2952]'> 
                 {Footer1(HiOutlineBookmarkAlt, "Free Delivery & Returns*")}
                 {Footer1(HiOutlinePaperAirplane, "Online Self Service")}
                 {Footer1(TiTick, "100% Genuine Guaranteed")}

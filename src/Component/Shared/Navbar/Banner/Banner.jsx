@@ -36,9 +36,9 @@ const Banner = () => {
             />
           </div>
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center font-poppins ">
-             <h1 className="lg:text-5xl leading-5  mb-2 font-serif text-[#03045e] font-bold sm:text-3xl">
+             <h1 className="lg:text-5xl leading-5  mb-2 font-serif text-[#3B0404] font-bold sm:text-3xl">
               Authentic{" "}
-              <span className="text-[#0077B6]">Luxery, Passionate.</span>{" "}
+              <span className="text-[#821D30]">Luxery, Passionate.</span>{" "}
             </h1>
             <p className="lg:text-lg sm:text-sm text-gray-700">
               Doll collection is a popular hobby and a form of artistic<br></br>{" "}
@@ -58,9 +58,9 @@ const Banner = () => {
             />
           </div>
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center font-poppins ">
-            <h1 className="lg:text-5xl leading-5  mb-2 font-serif text-[#03045e] font-bold sm:text-3xl">
+            <h1 className="lg:text-5xl leading-5  mb-2 font-serif text-[#3B0404] font-bold sm:text-3xl">
               Authentic{" "}
-              <span className="text-[#0077B6]">Luxery, Good Vibe</span>{" "}
+              <span className="text-[#821D30]">Luxery, Good Vibe</span>{" "}
             </h1>
            <p className="lg:text-lg sm:text-sm text-gray-700">
                perfume are fragrance, redolence, and scent. While all these words mean .<br></br>{" "}
@@ -80,9 +80,9 @@ const Banner = () => {
             />
           </div>
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center font-poppins ">
-              <h1 className="lg:text-5xl leading-5  mb-2 font-serif text-[#03045e] font-bold sm:text-3xl">
+              <h1 className="lg:text-5xl leading-5  mb-2 font-serif text-[#3B0404] font-bold sm:text-3xl">
               Authentic{" "}
-              <span className="text-[#0077B6]">Luxery, Reliable.</span>{" "}
+              <span className="text-[#821D30]">Luxery, Reliable.</span>{" "}
             </h1>
             <p className="lg:text-lg sm:text-sm text-gray-700">
                perfume are fragrance, redolence, and scent. While all these words mean .<br></br>{" "}
@@ -102,9 +102,9 @@ const Banner = () => {
             />{" "}
           </div>
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center font-poppins ">
-             <h1 className="lg:text-5xl leading-5  mb-2 font-serif text-[#03045e] font-bold sm:text-3xl">
+             <h1 className="lg:text-5xl leading-5  mb-2 font-serif text-[#3B0404] font-bold sm:text-3xl">
               Authentic{" "}
-              <span className="text-[#0077B6]">Luxery, Feeling Fresh.</span>{" "}
+              <span className="text-[#821D30]">Luxery, Feeling Fresh.</span>{" "}
             </h1>
             <p className="lg:text-lg sm:text-sm text-gray-700">
                perfume are fragrance, redolence, and scent. While all these words mean .<br></br>{" "}
@@ -116,22 +116,27 @@ const Banner = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-     <div className="p-6 py-12 dark:bg-green-400 dark:text-gray-900">
-	<div className="container mx-auto">
-		<div className="flex flex-col lg:flex-row items-center justify-between">
-			<h2 className="text-center text-6xl tracking-tighter font-bold">Up to
-				<br className="sm:hidden"/>50% Off
-			</h2>
-			<div className="space-x-2 text-center py-2 lg:py-0">
-				<span>Plus free shipping! Use code:</span>
-				<span className="font-bold text-lg">Perfumes</span>
-			</div>
-			<a href="#" rel="noreferrer noopener" className="px-5 mt-4 lg:mt-0 py-3 rounded-md border block dark:bg-gray-50 dark:text-gray-900 dark:border-gray-400">Shop Now</a>
-		</div>
-	</div>
+<div className="p-14 py-12 my-12 relative">
+  <img className="absolute inset-0 w-full h-full object-top  object-cover" src="https://png.pngtree.com/background/20210711/original/pngtree-valentine-s-day-literary-perfume-pink-background-picture-image_1124287.jpg" alt="Background" />
+  <div className="container mx-auto relative z-10">
+    <div className="flex flex-col lg:flex-row items-center justify-between">
+      <h2 className="text-[#821D30] text-center lg:text-left text-6xl tracking-tighter font-bold">
+        Up to <br className="sm:hidden" />50% Off
+      </h2>
+      <div className="space-x-2 text-center lg:text-left py-2 lg:py-0">
+        <span>Plus free shipping! Use code:</span>
+        <span className="font-bold text-lg">Perfumes</span>
+      </div>
+      <button className="text-[#821D30] shadow-2xl shadow-white px-5 mt-4 lg:mt-0 py-3 rounded-md block absolute bottom-4 lg:static left-1/2 transform -translate-x-1/2 bg-white border-2 border-red-950 font-serif font-semibold">Shop Now</button>
+    </div>
+  </div>
 </div>
+
+
+
     </>
   );
 };
 
 export default Banner;
+//  style={{ backgroundImage: 'url("https://images.pexels.com/photos/3910071/pexels-photo-3910071.jpeg?auto=compress&cs=tinysrgb&w=300")', backgroundSize: 'cover', backgroundPosition: 'top' }}
