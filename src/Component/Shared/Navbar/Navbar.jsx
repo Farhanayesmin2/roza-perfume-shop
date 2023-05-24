@@ -278,12 +278,12 @@ export default Navbar;
   </div>
 </div> */}
 
-<!-- HTML structure -->
+
 <header aria-label="Site Header" class="border-b border-gray-100">
   <div class="mx-auto flex h-16 max-w-screen-2xl items-center justify-between sm:px-6 lg:px-8">
     <div class="flex items-center gap-4">
       <button type="button" class="p-2 lg:hidden">
-        <!-- Mobile menu button icon -->
+       
       </button>
 
       <a href="#" class="flex">
@@ -310,7 +310,7 @@ export default Navbar;
           Contact
         </a>
 
-        <!-- Additional Menu Items -->
+     
         <a href="/menu1" class="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700">
           Menu 1
         </a>
@@ -319,12 +319,11 @@ export default Navbar;
           Menu 2
         </a>
         
-        <!-- Add more menu items as needed -->
-        
+       
       </nav>
 
       <div class="flex items-center">
-        <!-- Cart, Account, and Search icons -->
+       
       </div>
     </div>
   </div>
