@@ -28,7 +28,7 @@ const Banner = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="relative inset-0 bg-gradient-to-r from-purple-300 to-green-700 opacity-50  ">
+          <div className="relative inset-0 bg-gradient-to-r from-purple-300 to-green-700 opacity-50 ">
             <img
               className="object-cover w-full h-[500px] opacity-90"
               src="https://images.pexels.com/photos/965731/pexels-photo-965731.jpeg?auto=compress&cs=tinysrgb&w=600"

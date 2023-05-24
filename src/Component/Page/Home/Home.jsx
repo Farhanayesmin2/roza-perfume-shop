@@ -1,21 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Slider from '../../Slider/Slider';
-<<<<<<< HEAD
-import Banner from '../../Shared/Navbar/Banner/Banner';
-
-const Home = () => {
-    return (
-        <div className='relative w-full h-[500px] left-0 top-0'>
-       
-           <Banner></Banner>
-=======
+import Banner2 from "../../Shared/Navbar/Banner/Banner"
 import Banner from '../../Banner/Banner';
 
 const Home = () => {
     return (
-        <div className='relative w-full h-auto left-0 top-0'>
-            
+        <div className='relative w-full h-auto left-0 top-0'> 
+            <Banner2/>
              <Slider/>
              <Banner/>
 
@@ -101,8 +93,6 @@ const Home = () => {
 
                     </div> 
                     </div> 
-
->>>>>>> 59d2b1c8b765ec7f5ad774e50db11cdeef69ef1d
 
     
         </div>
