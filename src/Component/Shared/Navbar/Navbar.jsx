@@ -1,18 +1,21 @@
 import React, { useEffect, useState } from 'react';
 import CountDown from '../../Page/CountDown/CountDown';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
-
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
 
     return (
 <div>
-            <div className="px-8 py-2 dark:bg-gray-900 dark:text-gray-100">
+    <div className="px-8 py-2 dark:bg-gray-900 dark:text-gray-100">
 	<div className="flex items-center mx-auto container justify-center md:justify-between py-2">
 		<div>
 			<span>Get up to 50% off your first order + free shipping,&nbsp;</span>
@@ -25,7 +28,8 @@ const Navbar = () => {
 			<span className="hover:underline focus-visible:underline">Gift Cards</span>
 		</a>
 	</div>
-</div>
+</div>   
+
 
 
 <header aria-label="Site Header" class="shadow-sm">
@@ -150,7 +154,7 @@ const Navbar = () => {
 
 
 
-        <nav className="bg-gray-100">
+        <nav className="bg-gray-800">
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-16">
@@ -197,3 +201,79 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+{/* <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<div class="bg-gray-100 px-4 py-3">
+  <div class="mx-auto flex max-w-3xl items-center justify-center">
+    <button
+      class="swiper-prev-button hidden hover:text-gray-500 sm:block sm:rounded sm:text-gray-700 sm:transition"
+      aria-label="Previous Slide"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-5 w-5 rtl:rotate-180"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+          clip-rule="evenodd"
+        />
+      </svg>
+    </button>
+
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <p class="text-center text-sm font-medium text-gray-900">
+            Love Alpine JS?
+            <a href="#" class="block underline sm:inline-block">
+              Check out this new course!
+            </a>
+          </p>
+        </div>
+
+        <div class="swiper-slide">
+          <p class="text-center text-sm font-medium text-gray-900">
+            Love Tailwind CSS?
+            <a href="#" class="block underline sm:inline-block">
+              Check out this new course!
+            </a>
+          </p>
+        </div>
+
+        <div  class="swiper-slide">
+          <p class="text-center text-sm font-medium text-gray-900">
+            Love Laravel?
+            <a href="#" class="block underline sm:inline-block">
+              Check out this new course!
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <button
+      class="swiper-next-button hidden hover:text-gray-500 sm:block sm:rounded sm:text-gray-700 sm:transition"
+      aria-label="Next Slide"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-5 w-5 rtl:rotate-180"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+          clip-rule="evenodd"
+        />
+      </svg>
+    </button>
+  </div>
+</div> */}

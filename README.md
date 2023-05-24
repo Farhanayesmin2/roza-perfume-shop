@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+
 ### Roza-perfume-shop
 
 # install component
@@ -16,9 +17,15 @@
 -npx tailwindcss init -p
 -npm install -D tailwindcss
 -npx tailwindcss init
+
+# for another project
+
+-npm install aos
+
 =======
+
 # roza-perfume-shop
 
-
 Its a new project
->>>>>>> ded052cdafbf32a98027b373757f2be1bd7dd706
+
+> > > > > > > ded052cdafbf32a98027b373757f2be1bd7dd706
