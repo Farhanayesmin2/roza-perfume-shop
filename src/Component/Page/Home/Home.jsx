@@ -37,7 +37,61 @@ const Home = () => {
                         <p className='absolute left-20 top-40 text-gray-500 font-bold'>WOMANS PERFUME</p>
 
                     </div> 
+
+                    <div className='relative col-span-1 h-[316px] left-0 top-0'>
+                    <img
+                        className="relative w-full h-full left-0 top-0"
+                       
+                        src="https://freesvg.org/img/Wine-bottle.png"
+                    />
+                        <p className='absolute left-20 top-40 text-gray-500 font-bold'>WOMANS PERFUME</p>
+
+                    </div> 
+
+                    <div className='relative col-span-1 h-[316px] left-0 top-0'>
+                    <img
+                        className="relative w-full h-full left-0 top-0"
+                       
+                        src="https://freesvg.org/img/Wine-bottle.png"
+                    />
+                        <p className='absolute left-20 top-40 text-gray-500 font-bold'>WOMANS PERFUME</p>
+
+                    </div> 
+
+                    <div className='relative col-span-1 h-[316px] left-0 top-0'>
+                    <img
+                        className="relative w-full h-full left-0 top-0"
+                       
+                        src="https://freesvg.org/img/Wine-bottle.png"
+                    />
+                        <p className='absolute left-20 top-40 text-gray-500 font-bold'>WOMANS PERFUME</p>
+
+                    </div> 
+
+                    <div className='relative col-span-1 h-[316px] left-0 top-0'>
+                    <img
+                        className="relative w-full h-full left-0 top-0"
+                       
+                        src="https://freesvg.org/img/Wine-bottle.png"
+                    />
+                        <p className='absolute left-20 top-40 text-gray-500 font-bold'>WOMANS PERFUME</p>
+
+                    </div> 
              </div>
+             
+
+             <div className='grid grid-cols-3 justify-between relative h-auto w-[80%] left-[10%] gap-3 mt-10 mb-10'>
+               
+                    <div className='relative col-span-1 h-[316px] left-0 top-0'>
+                    <img
+                        className="relative w-full h-full left-0 top-0"
+                       
+                        src="https://freesvg.org/img/Wine-bottle.png"
+                    />
+                        <p className='absolute left-20 top-40 text-gray-500 font-bold'>WOMANS PERFUME</p>
+
+                    </div> 
+                    </div> 
 
 
     
