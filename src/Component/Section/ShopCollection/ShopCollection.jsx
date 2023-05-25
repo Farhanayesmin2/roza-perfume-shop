@@ -20,7 +20,9 @@ const ShopCollection = () => {
   if (isLoading) {
     return <h1>Loading...</h1>;
   }
-  console.log(perfumes);
+
+  console.log(perfumes); 
+
   return (
     <div>
       <div className="text-center mb-4">
@@ -37,7 +39,7 @@ const ShopCollection = () => {
 
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ">
-          {/* CARDS START*/}
+          {/* CARDS START...........................................*/}
           {perfumes.map((perfume) => (
             <div key={perfume.id} className="p-4 bg-rose-200">
               <div className="relative">
@@ -62,7 +64,7 @@ const ShopCollection = () => {
               </div>
             </div>
           ))}
-          {/* CARDS FINISH*/}
+          {/* CARDS FINISH............................................*/}
         </div>
       </div>
     </div>
