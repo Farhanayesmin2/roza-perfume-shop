@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from '../../Slider/Slider';
 import Banner from '../../Shared/Navbar/Banner/Banner';
 import ShopCollection from '../../Section/ShopCollection/ShopCollection';
+import ItemsHome from '../../ShopItems/ItemsHome'; 
 
 const Home = () => {
     return (
@@ -9,6 +10,8 @@ const Home = () => {
        
             <Banner/>
             <ShopCollection/>
+            <ItemsHome/>
+            
     
         </div>
     );
