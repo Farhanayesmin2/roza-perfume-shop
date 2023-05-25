@@ -5,7 +5,7 @@ const ShopCollection = () => {
   const [perfumes, setPerfumes] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
-    fetch("/public/data.json")
+    fetch("/data.json")
       .then((response) => response.json())
       .then((data) => {
         setPerfumes(data);
@@ -37,6 +37,7 @@ const ShopCollection = () => {
 
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ">
+          {/* CARDS START*/}
           {perfumes.map((perfume) => (
             <div key={perfume.id} className="p-4 bg-rose-200">
               <div className="relative">
@@ -61,6 +62,7 @@ const ShopCollection = () => {
               </div>
             </div>
           ))}
+          {/* CARDS FINISH*/}
         </div>
       </div>
     </div>

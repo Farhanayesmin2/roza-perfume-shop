@@ -187,8 +187,8 @@ const Banner = () => {
               <span>Plus free shipping! Use code:</span>
               <span className="font-bold text-lg">Perfumes</span>
             </div>
-            <div className=" sm:py-10">
-              <button className="mt-4 flex inline-flex items-center text-black bg-gradient-to-r from-[#821D30] via-rose-50 to-[#821D30] hover:bg-[#0077b6] shadow-2xl shadow-white lg:text-xl  h-16  font-serif font-semibold py-2 px-4 rounded-full ">
+            <div className="sm:py-10">
+              <button className="mt-4 inline-flex items-center text-black bg-gradient-to-r from-[#821D30] via-rose-50 to-[#821D30] hover:bg-[#0077b6] shadow-2xl shadow-white lg:text-xl  h-16  font-serif font-semibold py-2 px-4 rounded-full ">
                 Shop Now{" "}
                 <AiOutlineShoppingCart className="w-8 h-8"></AiOutlineShoppingCart>
               </button>
