@@ -1,13 +1,14 @@
 import React from 'react';
 import Slider from '../../Slider/Slider';
 import Banner from '../../Shared/Navbar/Banner/Banner';
+import ShopCollection from '../../Section/ShopCollection/ShopCollection';
 
 const Home = () => {
     return (
         <div >
        
            <Banner></Banner>
-
+<ShopCollection></ShopCollection>
     
         </div>
     );

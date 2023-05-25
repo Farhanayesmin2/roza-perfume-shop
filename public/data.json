@@ -1,0 +1,40 @@
+[
+ 
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/SP4zg5T/pexels-behrouz-alimardani-10873814.jpg",
+      "text": "Women’s perfume",
+      "button": "View All"
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/crjzmhs/istockphoto-1143220850-612x612.jpg",
+      "text": "Men’s cologne",
+      "button": "View All"
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/TWBfwHR/5e3c88c3d9db1d4ec64166f2.webp",
+      "text": "Haircare",
+      "button": "View All"
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/DbJtwv9/1513912-camp-png-rendition-991-705.webp",
+      "text": "Skincare",
+      "button": "View All"
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/hmy7qC2/pngtree-box-with-gift-photo-image-2319737.jpg",
+      "text": "Gift Set",
+      "button": "View All"
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/GVQ1pbx/best-french-perfumes-all-time-1024x415.webp",
+      "text": "Top Brands",
+      "button": "View All"
+    }
+
+]
