@@ -1,0 +1,183 @@
+[
+    {
+      "name": "Chanel Coco Mademoiselle",
+      "brand": "Chanel",
+      "price": "$120",
+      "description": "A feminine and sensual fragrance with a blend of rose, jasmine, and patchouli.",
+      "rating": 4.8,
+      "quantity": 15,
+      "image_url": "https://i.ibb.co/8g0bMvF/pexels-eyda-nur-y-ce-16065311.jpg",
+      "reviews": 1190
+    },
+    {
+      "name": "Dior Sauvage",
+      "brand": "Dior",
+      "price": "$95",
+      "description": "A bold and woody fragrance with notes of bergamot, pepper, and lavender.",
+      "rating": 4.6,
+      "quantity": 8,
+      "image_url": "https://i.ibb.co/LZbyW1t/pexels-kristina-paukshtite-713042-1.jpg",
+      "reviews": 870
+    },
+    {
+      "name": "Tom Ford Black Orchid",
+      "brand": "Tom Ford",
+      "price": "$150",
+      "description": "An opulent and luxurious scent with a mix of black truffle, orchid, and patchouli.",
+      "rating": 4.9,
+      "quantity": 12,
+      "image_url": "https://i.ibb.co/r2wtWT3/pexels-8365693-1.jpg",
+      "reviews": 985
+    },
+    {
+      "name": "Gucci Bloom",
+      "brand": "Gucci",
+      "price": "$90",
+      "description": "A vibrant and floral fragrance with notes of jasmine, tuberose, and Rangoon creeper.",
+      "rating": 4.5,
+      "quantity": 20,
+      "image_url": "https://i.ibb.co/NL9SmXT/pexels-15652265.jpg",
+      "reviews": 640
+    },
+    {
+      "name": "Versace Eros",
+      "brand": "Versace",
+      "price": "$80",
+      "description": "A seductive and aromatic fragrance with a blend of mint, green apple, and vanilla.",
+      "rating": 4.7,
+      "quantity": 10,
+      "image_url": "https://i.ibb.co/VvXFGhn/pexels-valeria-boltneva-965730.jpg",
+      "reviews": 975
+    },
+    {
+      "name": "Yves Saint Laurent Black Opium",
+      "brand": "Yves Saint Laurent",
+      "price": "$110",
+      "description": "A captivating and addictive scent with notes of coffee, vanilla, and orange blossom.",
+      "rating": 4.6,
+      "quantity": 18,
+      "image_url": "https://i.ibb.co/T192LxL/pexels-valeria-boltneva-1961794.jpg",
+      "reviews": 1220
+    },
+    {
+      "name": "Paco Rabanne 1 Million",
+      "brand": "Paco Rabanne",
+      "price": "$100",
+      "description": "An audacious and masculine fragrance with a mix of grapefruit, cinnamon, and leather.",
+      "rating": 4.4,
+      "quantity": 5,
+      "image_url": "https://i.ibb.co/YdDRNNp/pexels-karolina-1200502.jpg",
+      "reviews": 800
+    },
+    {
+      "name": "Marc Jacobs Daisy",
+      "brand": "Marc Jacobs",
+      "price": "$75",
+      "description": "A playful and youthful fragrance with notes of strawberry, violet, and white woods.",
+      "rating": 4.3,
+      "quantity": 9,
+      "image_url": "https://i.ibb.co/TKQFYxP/pexels-valeria-boltneva-965991.jpg",
+      "reviews": 920
+    },
+    {
+      "name": "Chloé Eau de Parfum",
+      "brand": "Chloé",
+      "price": "$95",
+      "description": "A chic and elegant fragrance with a blend of peony, rose, and magnolia.",
+      "rating": 4.7,
+      "quantity": 14,
+      "image_url": "https://i.ibb.co/jDCGFw4/pexels-valeria-boltneva-1961789.jpg",
+      "reviews": 1100
+    },
+    {
+      "name": "Dolce & Gabbana Light Blue",
+      "brand": "Dolce & Gabbana",
+      "price": "$85",
+      "description": "A refreshing and citrusy fragrance with hints of apple, bamboo, and white rose.",
+      "rating": 4.7,
+      "quantity": 7,
+      "image_url": "https://i.ibb.co/hKyJ0kk/pexels-valeriia-miller-3910071-1.jpg",
+      "reviews": 1350
+    },
+    {
+      "name": "Jo Malone London English Pear & Freesia",
+      "brand": "Jo Malone London",
+      "price": "$120",
+      "description": "A graceful and fruity fragrance with pear, white freesia, and patchouli.",
+      "rating": 4.5,
+      "quantity": 14,
+      "image_url": "https://i.ibb.co/PNV9j7X/pexels-valeria-boltneva-724635-1.jpg",
+      "reviews": 950
+    },
+    {
+      "name": "Burberry My Burberry Blush",
+      "brand": "Burberry",
+      "price": "$95",
+      "description": "A sparkling and floral scent with notes of pomegranate, rose, and jasmine.",
+      "rating": 4.4,
+      "quantity": 9,
+      "image_url": "https://i.ibb.co/NT91cgg/pexels-valeria-boltneva-965993.jpg",
+      "reviews": 780
+    },
+    {
+      "name": "Giorgio Armani Acqua di Gioia",
+      "brand": "Giorgio Armani",
+      "price": "$95",
+      "description": "A fresh and aquatic fragrance with a blend of mint, lemon, and brown sugar.",
+      "rating": 4.6,
+      "quantity": 11,
+      "image_url": "https://i.ibb.co/8z7s5ts/pexels-dids-1830450-1.jpg",
+      "reviews": 890
+    },
+    {
+      "name": "Estée Lauder Beautiful",
+      "brand": "Estée Lauder",
+      "price": "$150",
+      "description": "A classic and romantic fragrance with a bouquet of rose, lily, and marigold.",
+      "rating": 4.8,
+      "quantity": 16,
+      "image_url": "https://i.ibb.co/t4yMHss/pexels-valeria-boltneva-1961792.jpg",
+      "reviews": 1050
+    },
+    {
+      "name": "Yves Saint Laurent Libre",
+      "brand": "Yves Saint Laurent",
+      "price": "$130",
+      "description": "A bold and floral scent with lavender, orange blossom, and musk.",
+      "rating": 4.7,
+      "quantity": 13,
+      "image_url": "https://i.ibb.co/D5XWsWm/pexels-mareefe-932587.jpg",
+      "reviews": 980
+    },
+    {
+      "name": "Gucci Guilty",
+      "brand": "Gucci",
+      "price": "$110",
+      "description": "A daring and seductive fragrance with notes of mandarin, pink pepper, and patchouli.",
+      "rating": 4.5,
+      "quantity": 8,
+      "image_url": "https://i.ibb.co/mSWG6KW/pexels-valeria-boltneva-1961791-1.jpg",
+      "reviews": 970
+    },
+    {
+      "name": "Givenchy L'Interdit",
+      "brand": "Givenchy",
+      "price": "$125",
+      "description": "A mysterious and addictive scent with a blend of orange blossom, jasmine, and patchouli.",
+      "rating": 4.6,
+      "quantity": 10,
+      "image_url": "https://i.ibb.co/TM42D4L/pexels-jess-bailey-designs-755992.jpg",
+      "reviews": 920
+    },
+    {
+      "name": "Dior J'adore",
+      "brand": "Dior",
+      "price": "$150",
+      "description": "A luxurious and floral fragrance with a blend of ylang-ylang, jasmine, and rose.",
+      "rating": 4.8,
+      "quantity": 15,
+      "image_url": "https://i.ibb.co/L06MyFX/pexels-furkanfdemir-6310591.jpg",
+      "reviews": 1190
+    }
+  ]
+

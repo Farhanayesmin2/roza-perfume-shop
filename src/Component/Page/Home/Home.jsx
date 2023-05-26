@@ -1,7 +1,9 @@
 import React from 'react';
-import Slider from '../../Slider/Slider';
+
 import Banner from '../../Shared/Navbar/Banner/Banner';
 import ShopCollection from '../../Section/ShopCollection/ShopCollection';
+import BestSellers from '../../Section/ShopCollection/BestSellers/BestSellers';
+
 
 const Home = () => {
     return (
@@ -9,7 +11,8 @@ const Home = () => {
        
            <Banner></Banner>
 <ShopCollection></ShopCollection>
-    
+            <BestSellers></BestSellers>
+         
         </div>
     );
 };

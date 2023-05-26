@@ -30,11 +30,6 @@ console.log(perfumes);
   <p className='text-3xl font-serif font-semibold text-[#821D30] my-2'>Our delicious, limited-edition collection.</p>
  <h1 className='text-gray-600 text-sm my-2'>Our delicious, limited-edition collection. </h1>      
 </div>
-        
-
- 
-
-
             <div className="container mx-auto">
   <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ">
     {perfumes.map((perfume) => (

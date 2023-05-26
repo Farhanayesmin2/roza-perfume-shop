@@ -125,7 +125,7 @@ const Banner = () => {
           <div className=" inset-0 bg-gradient-to-r from-purple-300 to-green-700 opacity-60">
             <img
               className="object-cover w-full  h-[500px] outline-purple-950 opacity-80"
-              src=" https://i.ibb.co/p1GP1M8/pngtree-woman-perfume-literary-flower-purple-banner-image-181044.jpg"
+              src="https://images.pexels.com/photos/932577/pexels-photo-932577.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="image slide 5"
             />
           </div>
