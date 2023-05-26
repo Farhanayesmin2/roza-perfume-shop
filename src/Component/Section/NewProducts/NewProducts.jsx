@@ -69,20 +69,30 @@ const NewProducts = () => {
           <SwiperSlide>
             <div className=" swiper-wrapper  grid grid-cols-1 md:grid-cols-3 gap-6">
               {visiblePerfumes.map((perfume) => (
-                <div className="card relative swiper-slide" key={perfume.id}>
+                <div className="relative swiper-slide hover:scale-105 duration-300" key={perfume.id}>
                   <img
                     src={perfume.image_url}
                     alt={perfume.name}
                     effect="blur"
-                    className="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:aspect-w-2 sm:aspect-h-3"
-                  />
-                  <div className="absolute end-0 top-0 z-10 rounded-full  p-1.5 text-gray-900 transition hover:text-gray-900/75">
+                    className="h-64 w-full object-cover transition duration-500 sm:aspect-w-2 sm:aspect-h-3"
+                  /> 
+
+                  <div className='flex flex-row justify-between w-full h-auto absolute left-0 top-4 px-4 pr-4  '>
+                  <div className="rounded-full  p-1.5 text-gray-900 transition hover:text-gray-900/75">
+                   <span className="whitespace-nowrap bg-red-600 font-serif font-semibold rounded-full text-white px-3 py-1.5 text-xs font-md">
+                     New
+                          </span> 
+                          </div>
+                 
+                 <div className="rounded-full  p-1.5 text-gray-900 transition hover:text-gray-900/75">
                     <FaHeart className="h-6 w-6 text-rose-400" />
                       </div>
-                        <div className="absolute start-0 top-0 z-10 rounded-full  p-1.5 text-gray-900 transition hover:text-gray-900/75">
-                   <span className="whitespace-nowrap bg-red-600 font-serif font-semibold rounded-full text-white px-3 py-1.5 text-xs font-medium">
-                     New
-                          </span>
+                        
+
+
+
+
+
                              </div>
                   <div className="relative border border-gray-100 bg-white p-6">
                     {/* <span className="whitespace-nowrap bg-red-600 font-serif font-semibold rounded-full text-white px-3 py-1.5 text-xs font-medium">
