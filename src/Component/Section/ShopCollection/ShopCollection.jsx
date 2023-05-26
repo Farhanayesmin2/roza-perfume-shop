@@ -1,21 +1,21 @@
-import React from 'react';
-import { useState, useEffect } from 'react';
+import React from "react";
+import { useState, useEffect } from "react";
+
 const ShopCollection = () => {
-    const [perfumes, setPerfumes] = useState([]);
-    const [isLoading, setIsLoading] = useState(true);
- useEffect(() => {
-    // Fetch the JSON data
-    fetch('/public/data.json')
-      .then(response => response.json())
-      .then(data => {
+  const [perfumes, setPerfumes] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    fetch("/data.json")
+      .then((response) => response.json())
+      .then((data) => {
         setPerfumes(data);
         setIsLoading(false);
       })
-      .catch(error => {
-        console.error('Error fetching perfumes:', error);
+      .catch((error) => {
+        console.error("Error fetching perfumes:", error);
         setIsLoading(false);
       });
-  }, []); // Empty dependency array to run the effect only once
+  }, []);
 
     if (isLoading) {
     return <h1>Loading...</h1>
@@ -30,6 +30,11 @@ console.log(perfumes);
   <p className='text-3xl font-serif font-semibold text-[#821D30] my-2'>Our delicious, limited-edition collection.</p>
  <h1 className='text-gray-600 text-sm my-2'>Our delicious, limited-edition collection. </h1>      
 </div>
+        
+
+ 
+
+
             <div className="container mx-auto">
   <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ">
     {perfumes.map((perfume) => (
