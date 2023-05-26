@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Prada Luna Rossa",
+    "brand": "Prada",
+    "price": "$140",
+    "description": "An invigorating and aromatic fragrance with notes of lavender, orange, and amber.",
+    "rating": 4.7,
+    "quantity": 10,
+    "image_url": "https://i.ibb.co/wrbkyvq/pngtree-perfume-rose-silk-simple-background-image-2391733.jpg",
+    "reviews": 950
+  },
+  {
+    "name": "Givenchy Gentleman",
+    "brand": "Givenchy",
+    "price": "$120",
+    "description": "A sophisticated and masculine scent with a blend of pear, iris, and leather.",
+    "rating": 4.6,
+    "quantity": 12,
+    "image_url": "https://i.ibb.co/jkLD8L2/pngtree-perfume-rose-beautiful-background-image-2391741.jpg",
+    "reviews": 890
+  },
+  {
+    "name": "Yves Saint Laurent Mon Paris",
+    "brand": "Yves Saint Laurent",
+    "price": "$130",
+    "description": "A passionate and floral fragrance with a mix of strawberry, jasmine, and patchouli.",
+    "rating": 4.8,
+    "quantity": 15,
+    "image_url": "https://i.ibb.co/S63ZSZZ/pngtree-perfume-with-roses-and-in-a-basket-image-2529102.png",
+    "reviews": 1190
+  },
+  {
+    "name": "Chanel Coco Mademoiselle",
+    "brand": "Chanel",
+    "price": "$100",
+    "description": "A timeless and elegant fragrance with notes of orange, jasmine, and patchouli.",
+    "rating": 4.5,
+    "quantity": 8,
+    "image_url": "https://i.ibb.co/Vw8jDmq/Pngtree-perfume-light-sense-retro-background-2445716.png",
+    "reviews": 750
+  },
+  {
+    "name": "Dior Sauvage",
+    "brand": "Dior",
+    "price": "$110",
+    "description": "A fresh and woody scent with hints of bergamot, pepper, and ambroxan.",
+    "rating": 4.9,
+    "quantity": 20,
+    "image_url": "https://i.ibb.co/Z22F4WG/pngtree-perfume-glass-bottle-vintage-background-image-2391679.jpg",
+    "reviews": 1050
+  },
+  {
+    "name": "Gucci Bloom",
+    "brand": "Gucci",
+    "price": "$95",
+    "description": "A vibrant and floral fragrance with a blend of tuberose, jasmine, and Rangoon creeper.",
+    "rating": 4.7,
+    "quantity": 18,
+    "image_url": "https://i.ibb.co/9GbxRSF/pngtree-perfume-rose-white-background-image-769419.jpg",
+    "reviews": 920
+  },
+  {
+    "name": "Marc Jacobs Daisy",
+    "brand": "Marc Jacobs",
+    "price": "$85",
+    "description": "A youthful and fresh fragrance with notes of strawberry, violet, and musk.",
+    "rating": 4.6,
+    "quantity": 14,
+    "image_url": "https://i.ibb.co/hytd65s/pexels-rovenimagescom-949590.jpg",
+    "reviews": 830
+  },
+  {
+    "name": "Tom Ford Black Orchid",
+    "brand": "Tom Ford",
+    "price": "$150",
+    "description": "A sensual and luxurious scent with a blend of black truffle, ylang-ylang, and vanilla.",
+    "rating": 4.8,
+    "quantity": 16,
+    "image_url": "https://i.ibb.co/9HHhQG3/pngtree-perfume-stone-green-background-image-2120146.jpg",
+    "reviews": 1150
+  },
+  {
+    "name": "Versace Bright Crystal",
+    "brand": "Versace",
+    "price": "$120",
+    "description": "A refreshing and floral fragrance with hints of pomegranate, peony, and musk.",
+    "rating": 4.7,
+    "quantity": 22,
+    "image_url": "https://i.ibb.co/zrkvNrt/pngtree-perfume-blue-snow-background-image-2459836.jpg",
+    "reviews": 980
+  }
+]

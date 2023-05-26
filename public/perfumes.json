@@ -178,6 +178,54 @@
       "quantity": 15,
       "image_url": "https://i.ibb.co/L06MyFX/pexels-furkanfdemir-6310591.jpg",
       "reviews": 1190
-    }
+    },
+
+{
+"name": "Chanel Chance",
+"brand": "Chanel",
+"price": "$130",
+"description": "A fresh and vibrant fragrance with a mix of pink pepper, jasmine, and patchouli.",
+"rating": 4.7,
+"quantity": 10,
+"image_url": "https://i.ibb.co/wrbkyvq/pngtree-perfume-rose-silk-simple-background-image-2391733.jpg",
+"reviews": 950
+},
+
+{
+"name": "Dolce & Gabbana The One",
+"brand": "Dolce & Gabbana",
+"price": "$110",
+"description": "A sophisticated and warm scent with notes of bergamot, tobacco, and amber.",
+"rating": 4.6,
+"quantity": 12,
+"image_url": "https://i.ibb.co/9GbxRSF/pngtree-perfume-rose-white-background-image-769419.jpg",
+"reviews": 890
+},
+
+{
+"name": "Giorgio Armani Si",
+"brand": "Giorgio Armani",
+"price": "$120",
+"description": "A captivating and elegant fragrance with a blend of blackcurrant, freesia, and vanilla.",
+"rating": 4.8,
+"quantity": 15,
+"image_url": "https://i.ibb.co/hytd65s/pexels-rovenimagescom-949590.jpg",
+"reviews": 1190
+},
+
+{
+"name": "Tom Ford Oud Wood",
+"brand": "Tom Ford",
+"price": "$250",
+"description": "A luxurious and woody scent with a blend of oud, rosewood, and sandalwood.",
+"rating": 4.9,
+"quantity": 8,
+"image_url": "https://i.ibb.co/Zdz7fwZ/pexels-8365693.jpg",
+"reviews": 870
+}
+
+
+
+
   ]
 
