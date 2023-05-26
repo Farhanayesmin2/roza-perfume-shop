@@ -10,7 +10,7 @@ import 'swiper/swiper-bundle.min.css';
 import { AiOutlineShoppingCart } from "react-icons/ai";
 SwiperCore.use([Navigation]);
 
-const BestSellers = () => {
+const  BestSellers = () => {
   const [perfumes, setPerfumes] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -69,20 +69,30 @@ const BestSellers = () => {
           <SwiperSlide>
             <div className=" swiper-wrapper  grid grid-cols-1 md:grid-cols-3 gap-6">
               {visiblePerfumes.map((perfume) => (
-                <div className="card relative swiper-slide" key={perfume.id}>
+                <div className="card relative swiper-slide group" key={perfume.id}>
                   <img
                     src={perfume.image_url}
                     alt={perfume.name}
                     effect="blur"
                     className="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:aspect-w-2 sm:aspect-h-3"
                   />
-                  <div className="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75">
-                    <FaHeart className="h-6 w-6" />
-                  </div>
-                  <div className="relative border border-gray-100 bg-white p-6">
-                    <span className="whitespace-nowrap bg-red-600 font-serif font-semibold rounded-full text-white px-3 py-1.5 text-xs font-medium">
+
+                  <div className='flex flex-row justify-between w-full h-auto absolute left-0 top-0 p-2 '>
+                  <span className="whitespace-nowrap bg-red-600 font-serif font-semibold rounded-full text-white px-4 py-2 text-xs font-md left-0 top-0">
                       Top
                     </span>
+                  
+                  <div className="end-4 top-4 z-10 rounded-full p-1.5 text-gray-900 transition hover:text-gray-900/75">
+                    
+                    <FaHeart className="h-6 w-6 text-red-600" />
+                  </div>
+                  
+
+                  </div>
+                  
+                  
+                  <div className="relative border border-gray-100 bg-white p-6">
+                    
                     <h3 className="mt-4 text-lg font-medium text-gray-900">{perfume.name}</h3>
                     <p className="mt-1.5 text-lg text-gray-700">Price: {perfume.price}</p>
                     <div className="flex items-center mt-1.5 text-lg text-yellow-400"> <span className=' text-gray-700 mr-2'>Rating: {perfume.rating}</span> 
